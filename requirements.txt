@@ -1,0 +1,35 @@
+# Core Libraries
+kurigram
+py-tgcalls
+tgcrypto
+
+# Databases & Async
+motor
+dnspython
+aiohttp
+aiofiles
+python-dotenv
+httpx
+orjson
+
+# Media & Search
+yt-dlp
+redis
+youtube-search-python
+py-yt-search
+Pillow
+spotipy
+beautifulsoup4
+
+# Utilities
+psutil
+pykeyboard
+PyYAML
+requests
+speedtest-cli
+unidecode
+PyJWT
+
+# Web Server
+fastapi
+uvicorn

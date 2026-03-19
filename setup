@@ -1,0 +1,226 @@
+#!/bin/bash
+
+cred='\033[0;31m'
+cgreen='\033[0;32m'
+cyellow='\033[0;33m'
+cblue='\033[0;34m'
+cpurple='\033[0;35m'
+cwhite='\033[0;37m'
+
+pprint() {
+    local color="${cpurple}"
+    [ ! -z "$2" ] && eval "color=\$$2"
+    printf "${color}$1${cwhite}"
+}
+
+yesnoprompt() {
+    local old_stty_cfg=$(stty -g)
+    stty raw -echo
+    answer=$(head -c 1)
+    stty $old_stty_cfg
+    echo "$answer" | grep -iq "^y"
+}
+
+update_system() {
+    pprint "\n╭────────────────────────────────────╮\n" "cblue"
+    pprint "│   Updating Package List...         │\n" "cblue"
+    pprint "╰────────────────────────────────────╯\n" "cblue"
+    
+    sudo apt update 2>&1 | grep "can be upgraded" &>/dev/null
+    if [ $? -eq 0 ]; then
+        pprint "✓ Updates Available\n" "cyellow"
+        pprint "\nDo you want to upgrade? (y/n): " "cwhite"
+        if yesnoprompt; then
+            pprint "\n\nUpgrading packages... "
+            sudo apt upgrade -y &>/dev/null && pprint "✓ Done\n\n" "cgreen" || { pprint "✗ Failed\n\n" "cred"; exit 1; }
+        else
+            pprint "\n\nSkipping upgrade...\n" "cyellow"
+        fi
+    else
+        pprint "✓ Already Up to Date\n\n" "cgreen"
+    fi
+}
+
+install_packages() {
+    pprint "\n╭────────────────────────────────────╮\n" "cblue"
+    pprint "│   Installing Required Packages    │\n" "cblue"
+    pprint "╰────────────────────────────────────╯\n" "cblue"
+    
+    if ! command -v pip3 &>/dev/null; then
+        pprint "\n→ Installing Python3-pip... "
+        sudo apt install python3-pip -y 2>pypilog.txt 1>/dev/null && pprint "✓ Done\n" "cgreen" || { pprint "✗ Failed\n" "cred"; exit 1; }
+    else
+        pprint "\n✓ Python3-pip already installed\n" "cgreen"
+    fi
+    
+    if ! command -v ffmpeg &>/dev/null; then
+        pprint "→ Installing FFmpeg... "
+        if sudo apt install ffmpeg -y &>/dev/null; then
+            pprint "✓ Done\n" "cgreen"
+        else
+            pprint "✗ Failed\n" "cred"
+            pprint "\n⚠ FFmpeg is required for Melody. Please install it manually.\n" "cyellow"
+            exit 1
+        fi
+    else
+        pprint "✓ FFmpeg already installed\n" "cgreen"
+    fi
+    
+    local fv=$(ffmpeg -version 2>/dev/null | grep -Po 'version (3.*?) ')
+    [ ! -z "$fv" ] && pprint "\n⚠ Warning: FFmpeg $fv detected. Version 4+ required for live streams.\n" "cyellow"
+}
+
+install_nodejs() {
+    command -v npm &>/dev/null && { pprint "\n✓ Node.js & npm already installed\n" "cgreen"; return; }
+    
+    pprint "\n╭────────────────────────────────────╮\n" "cblue"
+    pprint "│   Installing Node.js 19 & npm     │\n" "cblue"
+    pprint "╰────────────────────────────────────╯\n" "cblue"
+    pprint "\n→ Downloading and installing... "
+    
+    curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - &>nodelog.txt &&
+    sudo apt install -y nodejs &>>nodelog.txt &&
+    sudo npm i -g npm &>>nodelog.txt &&
+    pprint "✓ Done\n\n" "cgreen" || { pprint "✗ Failed\n\n" "cred"; exit 1; }
+}
+
+install_dependencies() {
+    pprint "\n╭────────────────────────────────────╮\n" "cblue"
+    pprint "│   Installing Python Dependencies  │\n" "cblue"
+    pprint "╰────────────────────────────────────╯\n" "cblue"
+    pprint "\n→ Upgrading pip... "
+    
+    pip3 install -U pip &>>pypilog.txt && pprint "✓ Done\n" "cgreen" || { pprint "✗ Failed\n" "cred"; exit 1; }
+    
+    pprint "→ Installing requirements... "
+    pip3 install --no-cache-dir -U -r requirements.txt &>>pypilog.txt && pprint "✓ Done\n\n" "cgreen" || { pprint "✗ Failed\n\n" "cred"; exit 1; }
+}
+
+get_input() {
+    local prompt="$1"
+    local value
+    pprint "$prompt: " "cyellow"
+    printf "${cwhite}"
+    read value
+    echo "$value"
+}
+
+create_env() {
+    pprint "\n╭────────────────────────────────────╮\n" "cblue"
+    pprint "│   Bot Configuration Setup          │\n" "cblue"
+    pprint "╰────────────────────────────────────╯\n\n" "cblue"
+    
+    # Core credentials
+    api_id=$(get_input "API ID (from my.telegram.org)")
+    api_hash=$(get_input "API HASH (from my.telegram.org)")
+    bot_token=$(get_input "BOT TOKEN (from @BotFather)")
+    
+    # Database
+    mongo_db=$(get_input "MONGO DB URI")
+    
+    # Admin IDs
+    owner_id=$(get_input "OWNER ID (Telegram user ID)")
+    dev_id=$(get_input "DEV ID (Telegram user ID)")
+    logger=$(get_input "LOG GROUP ID (Telegram group/channel ID)")
+    
+    # Support links (username only, no @)
+    support_channel=$(get_input "SUPPORT CHANNEL (username, no @)")
+    support_group=$(get_input "SUPPORT GROUP (username, no @)")
+    
+    # Assistant session strings
+    string_session=$(get_input "STRING SESSION 1 (required)")
+    string_session2=$(get_input "STRING SESSION 2 (optional, press Enter to skip)")
+    string_session3=$(get_input "STRING SESSION 3 (optional, press Enter to skip)")
+    string_session4=$(get_input "STRING SESSION 4 (optional, press Enter to skip)")
+    string_session5=$(get_input "STRING SESSION 5 (optional, press Enter to skip)")
+    
+    # Optional: Spotify
+    spotify_id=$(get_input "SPOTIFY CLIENT ID (optional, press Enter to skip)")
+    spotify_secret=$(get_input "SPOTIFY CLIENT SECRET (optional, press Enter to skip)")
+    
+    # Optional: Image URLs
+    start_img_url=$(get_input "START IMG URL (optional, press Enter to skip)")
+    
+    pprint "\n→ Saving configuration... " "cwhite"
+    
+    [ -f .env ] && rm .env
+    
+    cat > .env << EOF
+# --- Core Bot Settings ---
+API_ID=$api_id
+API_HASH=$api_hash
+BOT_TOKEN=$bot_token
+
+# --- Database ---
+MONGO_DB_URI=$mongo_db
+
+# --- Admin IDs ---
+OWNER_ID=$owner_id
+DEV_ID=$dev_id
+LOG_GROUP_ID=$logger
+
+# --- Support ---
+SUPPORT_CHANNEL=$support_channel
+SUPPORT_GROUP=$support_group
+
+# --- Assistant Sessions ---
+STRING_SESSION=$string_session
+STRING_SESSION2=$string_session2
+STRING_SESSION3=$string_session3
+STRING_SESSION4=$string_session4
+STRING_SESSION5=$string_session5
+
+# --- Spotify (optional) ---
+SPOTIFY_CLIENT_ID=$spotify_id
+SPOTIFY_CLIENT_SECRET=$spotify_secret
+
+# --- Image URLs (optional) ---
+START_IMG_URL=$start_img_url
+EOF
+    
+    pprint "✓ Done\n" "cgreen"
+}
+
+main() {
+    clear
+    pprint "\n╔════════════════════════════════════╗\n" "cpurple"
+    pprint "║                                    ║\n" "cpurple"
+    pprint "║     Melody Setup Installer    ║\n" "cpurple"
+    pprint "║                                    ║\n" "cpurple"
+    pprint "╚════════════════════════════════════╝\n\n" "cpurple"
+    
+    pprint "ℹ Error Logs:\n" "cblue"
+    pprint "  • Node.js errors → nodelog.txt\n" "cwhite"
+    pprint "  • Python errors  → pypilog.txt\n\n" "cwhite"
+    
+    sleep 1
+    
+    pprint "⚠ This script requires sudo privileges.\n" "cyellow"
+    sudo test || exit 1
+    
+    update_system
+    install_packages
+    install_nodejs
+    install_dependencies
+    
+    pprint "\n╔════════════════════════════════════╗\n" "cgreen"
+    pprint "║   Installation Completed! ✓        ║\n" "cgreen"
+    pprint "╚════════════════════════════════════╝\n\n" "cgreen"
+    
+    sleep 1
+    create_env
+    
+    clear
+    pprint "\n╔════════════════════════════════════╗\n" "cgreen"
+    pprint "║                                    ║\n" "cgreen"
+    pprint "║   Setup Completed Successfully! ✓  ║\n" "cgreen"
+    pprint "║                                    ║\n" "cgreen"
+    pprint "╚════════════════════════════════════╝\n\n" "cgreen"
+    
+    pprint "✓ Configuration saved to .env\n" "cgreen"
+    pprint "\nℹ To add more variables: vi .env\n" "cblue"
+    pprint "\n→ Start the bot with: " "cyellow"
+    pprint "bash start\n\n" "cgreen"
+}
+
+main

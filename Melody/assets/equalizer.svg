@@ -1,0 +1,118 @@
+<svg width="100%" height="380" viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ========== DEFINITIONS ========== -->
+  <defs>
+    <!-- Background gradient -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1f0030"/>
+      <stop offset="50%" stop-color="#0a0020"/>
+      <stop offset="100%" stop-color="#000010"/>
+    </radialGradient>
+
+    <!-- Neon gradient -->
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff00ff"/>
+      <stop offset="50%" stop-color="#00eaff"/>
+      <stop offset="100%" stop-color="#00ff88"/>
+    </linearGradient>
+
+    <!-- Particle glow -->
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glass card -->
+    <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+      <feColorMatrix result="matrixOut" type="matrix"
+        values="1 0 0 0 0  
+                0 1 0 0 0  
+                0 0 1 0 0  
+                0 0 0 0.3 0"/>
+      <feBlend in="SourceGraphic" in2="matrixOut" mode="normal"/>
+    </filter>
+
+    <!-- Equalizer animation -->
+    <style>
+      @keyframes eq {
+        0% { height: 20px; }
+        25% { height: 80px; }
+        50% { height: 40px; }
+        75% { height: 100px; }
+        100% { height: 30px; }
+      }
+
+      @keyframes float {
+        0% { transform: translateY(0px); opacity: 0.8; }
+        50% { transform: translateY(-15px); opacity: 1; }
+        100% { transform: translateY(0px); opacity: 0.8; }
+      }
+
+      @keyframes ring {
+        0% { r: 90; opacity: .4; }
+        50% { r: 120; opacity: .2; }
+        100% { r: 90; opacity: .4; }
+      }
+    </style>
+
+  </defs>
+
+  <!-- ========== BACKGROUND ========== -->
+  <rect width="100%" height="100%" fill="url(#bg)" />
+
+  <!-- Floating particles -->
+  <g fill="url(#neon)" opacity="0.6" filter="url(#softGlow)">
+    <circle cx="120" cy="90" r="5" style="animation: float 3s infinite ease-in-out; animation-delay: .2s"/>
+    <circle cx="750" cy="60" r="7" style="animation: float 4s infinite ease-in-out; animation-delay: .5s"/>
+    <circle cx="840" cy="300" r="4" style="animation: float 3.5s infinite ease-in-out; animation-delay: .9s"/>
+    <circle cx="100" cy="280" r="6" style="animation: float 4s infinite ease-in-out; animation-delay: 1.2s"/>
+  </g>
+
+  <!-- ========== CENTER GLASS PANEL ========== -->
+  <g transform="translate(450,190)">
+    <rect x="-220" y="-80" width="440" height="160" rx="25"
+          fill="rgba(255,255,255,0.03)" stroke="url(#neon)" stroke-width="2"
+          filter="url(#glass)"/>
+
+    <!-- Glowing ring -->
+    <circle r="100" fill="none" stroke="url(#neon)" stroke-width="3"
+            style="animation:ring 4s infinite ease-in-out" opacity="0.5"/>
+
+    <!-- MAIN NAME -->
+    <text x="0" y="-5" text-anchor="middle"
+          font-size="38" font-family="Poppins, sans-serif"
+          font-weight="900" fill="url(#neon)" filter="url(#softGlow)">
+      Melody
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="35" text-anchor="middle"
+          font-size="16" fill="#dddddd" opacity="0.7"
+          font-family="Poppins, sans-serif">
+      Premium Visual Audio Engine
+    </text>
+  </g>
+
+  <!-- ========== LEFT EQUALIZER ========== -->
+  <g transform="translate(160,200)" fill="url(#neon)" filter="url(#softGlow)">
+    <rect x="0"   y="-50" width="14" height="60" rx="6" style="animation:eq 1s infinite .1s"/>
+    <rect x="25"  y="-50" width="14" height="70" rx="6" style="animation:eq 1.1s infinite .2s"/>
+    <rect x="50"  y="-50" width="14" height="80" rx="6" style="animation:eq 1s infinite .3s"/>
+    <rect x="75"  y="-50" width="14" height="90" rx="6" style="animation:eq 1.2s infinite .4s"/>
+    <rect x="100" y="-50" width="14" height="65" rx="6" style="animation:eq 1s infinite .5s"/>
+  </g>
+
+  <!-- ========== RIGHT EQUALIZER ========== -->
+  <g transform="translate(680,200)" fill="url(#neon)" filter="url(#softGlow)">
+    <rect x="0"   y="-50" width="14" height="75" rx="6" style="animation:eq 1s infinite .6s"/>
+    <rect x="25"  y="-50" width="14" height="95" rx="6" style="animation:eq 1.1s infinite .7s"/>
+    <rect x="50"  y="-50" width="14" height="70" rx="6" style="animation:eq 1s infinite .8s"/>
+    <rect x="75"  y="-50" width="14" height="85" rx="6" style="animation:eq 1.2s infinite .9s"/>
+    <rect x="100" y="-50" width="14" height="60" rx="6" style="animation:eq 1s infinite 1s"/>
+  </g>
+
+</svg>

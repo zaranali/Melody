@@ -1,0 +1,132 @@
+{
+  "name": "Melody Music",
+  "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+  "logo": "https://files.catbox.moe/v7hio8.jpg",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Melody",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram",
+    "kurigram"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot's token from Botfather",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "Get a mongodb url from https://cloud.mongodb.com.",
+      "required": true
+    },
+    "MONGO_DB_NAME": {
+      "description": "The name of the database in MongoDB (Default: Melody).",
+      "value": "Melody",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "The user id of user whom you would like to add as OWNER.",
+      "required": true
+    },
+    "DEV_ID": {
+      "description": "Optional: User ID of the DEVELOPER. Defaults to OWNER_ID if not provided.",
+      "required": false
+    },
+    "STRING_SESSION": {
+      "description": "A Pyrogram v2 String Session. Generate it from: https://telegram.tools/session-string-generator#pyrogram,user",
+      "required": true
+    },
+    "STRING_SESSION2": {
+      "description": "Optional: A second Pyrogram v2 String Session. Generate it from: https://telegram.tools/session-string-generator#pyrogram,user",
+      "required": false
+    },
+    "STRING_SESSION3": {
+      "description": "Optional: A third Pyrogram v2 String Session. Generate it from: https://telegram.tools/session-string-generator#pyrogram,user",
+      "required": false
+    },
+    "STRING_SESSION4": {
+      "description": "Optional: A fourth Pyrogram v2 String Session. Generate it from: https://telegram.tools/session-string-generator#pyrogram,user",
+      "required": false
+    },
+    "STRING_SESSION5": {
+      "description": "Optional: A fifth Pyrogram v2 String Session. Generate it from: https://telegram.tools/session-string-generator#pyrogram,user",
+      "required": false
+    },
+    "LOG_GROUP_ID": {
+      "description": "Optional: Your Log Group ID. Defaults to OWNER_ID if not provided.",
+      "required": false
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your support group link (username only)",
+      "value": "MelodySupport",
+      "required": false
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "Your support channel link (username only)",
+      "value": "MelodySupport",
+      "required": false
+    },
+    "YT_API_URL": {
+      "description": "External API URL for YouTube downloads.",
+      "value": "https://shrutibots.site",
+      "required": false
+    },
+    "COOKIES_URL": {
+      "description": "Link to your YouTube cookies (e.g. Batbin link).",
+      "required": false
+    },
+    "START_IMG_URL": {
+      "description": "Image that appears with the /start command",
+      "value": "https://files.catbox.moe/u05mzo.jpg",
+      "required": false
+    },
+    "DURATION_LIMIT": {
+      "description": "Maximum duration allowed for tracks (in minutes).",
+      "value": "300",
+      "required": false
+    },
+    "REDIS_URI": {
+      "description": "Optional: Redis URI for ultra-fast caching (e.g. Upstash).",
+      "required": false
+    },
+    "PLAYLIST_FETCH_LIMIT": {
+      "description": "Maximum number of tracks to fetch from a playlist.",
+      "value": "25",
+      "required": false
+    },
+    "AUTO_LEAVING_ASSISTANT": {
+      "description": "Whether the assistant should automatically leave inactive chats.",
+      "value": "False",
+      "required": false
+    },
+    "WEB_SERVICE": {
+      "description": "Set to True to enable the FastAPI background service (prevents idling).",
+      "value": "False",
+      "required": false
+    },
+    "PORT": {
+      "description": "Port for the web service (Default: 8000).",
+      "value": "8000",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "container"
+}
